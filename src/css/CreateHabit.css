@@ -1,0 +1,122 @@
+.create-habit-container {
+  padding: 20px;
+  font-family: 'Inter', sans-serif;
+  background-color: #f9f9f9;
+  max-width: 1000px;
+  margin: 0 auto; /* Memastikan konten berada di tengah */
+}
+
+.close-btn {
+  background-color: #f0f0f0;
+  border: none;
+  padding: 12px;
+  border-radius: 50%;
+  cursor: pointer;
+  margin-bottom: 16px;
+}
+
+h1 {
+  text-align: center;
+  color: #6c5ce7;
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.create-habit-btn-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px; /* Menjaga jarak antara tombol dan section sebelumnya */
+}
+
+.create-habit-btn {
+  background-color: #6c5ce7;
+  color: white;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.create-habit-btn:hover {
+  background-color: #5a4cc7;
+}
+
+.section-title {
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.section-description {
+  color: #666;
+  font-size: 14px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.habit-list {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 1fr; /* Mengubah ke satu kolom vertikal */
+  gap: 20px;
+  justify-items: center;
+}
+
+.habit-item-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.habit-item {
+  display: flex;
+  width: 100%;
+  background-color: #f1e6ff;
+  padding: 16px;
+  border-radius: 12px;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  max-width: 250px;
+  transition: background-color 0.3s ease;
+}
+
+.habit-item:hover {
+  background-color: #d8b6f1;
+}
+
+.habit-emoji {
+  font-size: 40px;
+  background-color: #6c5ce7;
+  color: white;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 16px;
+}
+
+.habit-text {
+  text-align: left;
+}
+
+.habit-title {
+  font-weight: bold;
+  font-size: 16px;
+  margin-bottom: 4px;
+}
+
+.habit-description {
+  font-size: 14px;
+  color: #555;
+}
