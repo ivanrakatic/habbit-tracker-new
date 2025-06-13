@@ -1,8 +1,12 @@
-import Image from "next/image";
+import React from 'react';
+import CreateHabit from './CreateHabit';
 
-export default function Home() {
+const OptionCreatePage = () => {
   return (
     <div>
+      <CreateHabit /> {/* Render komponen CreateHabit di halaman ini */}
     </div>
   );
-}
+};
+
+export default OptionCreatePage;
