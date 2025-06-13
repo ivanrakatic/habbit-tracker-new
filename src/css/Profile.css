@@ -1,0 +1,121 @@
+.profile-container {
+  padding: 20px;
+  font-family: 'Inter', sans-serif;
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: #f5f5f5;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.profile-card {
+  background-color: #DCC7FF;
+  border-radius: 10px;
+  border: 1px solid #6C5CE7;
+  margin-bottom: 20px;
+}
+
+.profile-image {
+  border-radius: 50%;
+  width: 64px;
+  height: 64px;
+  object-fit: cover;
+}
+
+.profile-name {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.profile-text {
+  font-size: 0.875rem;
+  color: #6C5CE7;
+}
+
+.profile-stat {
+  flex: 1;
+  padding: 16px;
+  text-align: center;
+}
+
+.profile-stat-text {
+  font-size: 0.875rem;
+}
+
+.profile-stat-value {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.day-tracking {
+  background-color: #DCC7FF;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.section-title {
+  font-size: 1rem;
+  font-weight: bold;
+  border-bottom: 1px solid #6C5CE7;
+  margin-bottom: 15px;
+  color: #6C5CE7;
+}
+
+.days {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.day-item {
+  text-align: center;
+}
+
+.day-button {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  border: 2px solid #6C5CE7;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+
+.day-button.active {
+  background-color: #6C5CE7;
+  color: white;
+}
+
+.daily-quote {
+  background-color: #DCC7FF;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.quote-container {
+  position: relative;
+  background-color: #B9A6FF;
+  padding: 24px;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 1rem;
+  color: black;
+}
+
+.quote-mark {
+  position: absolute;
+  font-size: 1.5rem;
+  top: 5px;
+  left: 5px;
+  font-family: 'serif';
+}
+
+.quote-text {
+  font-size: 1.2rem;
+  font-style: italic;
+  margin: 0;
+}
