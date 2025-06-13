@@ -1,8 +1,12 @@
-import Image from "next/image";
+import React from 'react';
+import Profile from './Profile';
 
-export default function Home() {
+const ProfilePage = () => {
   return (
     <div>
+      <Profile />  {/* Menampilkan komponen Profile di halaman ini */}
     </div>
   );
-}
+};
+
+export default ProfilePage;
